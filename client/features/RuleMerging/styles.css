@@ -1,0 +1,65 @@
+.merge-preview-container {
+  padding: 20px;
+  background: white;
+  border-radius: 4px;
+  max-height: 80vh;
+  overflow-y: auto;
+}
+
+.merge-stats {
+  background: #f8f9fa;
+  padding: 15px;
+  border-radius: 4px;
+  margin: 15px 0;
+}
+
+.merge-stats p {
+  margin: 5px 0;
+  font-size: 14px;
+}
+
+.new-rules-preview {
+  margin-top: 20px;
+}
+
+.new-rules-preview table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+.new-rules-preview th,
+.new-rules-preview td {
+  border: 1px solid #dee2e6;
+  padding: 8px;
+  text-align: left;
+}
+
+.new-rules-preview th {
+  background: #f8f9fa;
+  font-weight: bold;
+}
+
+.new-rules-preview tr:nth-child(even) {
+  background: #f8f9fa;
+}
+
+.button-container {
+  margin-top: 20px;
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+.confirm-button {
+  background: #28a745;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.confirm-button:hover {
+  background: #218838;
+}
